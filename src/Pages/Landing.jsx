@@ -22,7 +22,7 @@ export default function Landing() {
     const [clickCount, setClickCount] = useState(0);
   
     const handleClick = () => {
-      if (clickCount + 1 === 10) {
+      if (clickCount + 1 === 5) {
         navigate("/Registeredusers"); // Replace with your actual route
       } else {
         setClickCount(clickCount + 1);
