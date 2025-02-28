@@ -5,8 +5,20 @@ import { useNavigate, useNavigation } from "react-router-dom";
 
 
 export default function Landing() {
-    const [gradientPosition, setGradientPosition] = useState({ x: 50, y: 50 });
+
     const navigate = useNavigate();
+
+    useEffect(() => {
+      const userData = JSON.parse(localStorage.getItem("userData")) || {};
+  
+     
+      if (Object.keys(userData).length != 0) {
+        navigate("/food"); // Redirect to login page
+      }
+    }, [navigate]);
+  
+    const [gradientPosition, setGradientPosition] = useState({ x: 50, y: 50 });
+  
     useEffect(() => {
         const handleMouseMove = (e) => {
             const x = (e.clientX / window.innerWidth) * 100;
