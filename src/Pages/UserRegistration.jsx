@@ -125,7 +125,7 @@ const UserRegistration = () => {
     };
 
     const handleSaveData = async (data) => {
-      
+      console.log(data,"USERDATATA")
         const response = await fetch("/api/RegisteredUsers", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
