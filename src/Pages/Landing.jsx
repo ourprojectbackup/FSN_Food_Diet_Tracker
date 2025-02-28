@@ -18,6 +18,19 @@ export default function Landing() {
         return () => window.removeEventListener("mousemove", handleMouseMove);
     }, []);
 
+
+    const [clickCount, setClickCount] = useState(0);
+  
+    const handleClick = () => {
+      if (clickCount + 1 === 10) {
+        navigate("/Registeredusers"); // Replace with your actual route
+      } else {
+        setClickCount(clickCount + 1);
+      }
+    };
+
+    
+
     return (
         <motion.div
             className="min-h-screen flex flex-col items-center justify-center text-center px-6 transition-all duration-300"
@@ -34,6 +47,7 @@ export default function Landing() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 whileHover={{ scale: 1.1 }}
+                 onClick={handleClick}
             >
                 🍏 Food Diet Monitoring 🥗
             </motion.h1>
