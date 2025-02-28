@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
             return res.status(200).json({ message: "Data saved successfully!" ,});
         } catch (error) {
-            return res.status(500).json({ error: "Failed to save data",error });
+            return res.status(500).json({ error: "Failed hjgjjkhto save data",msg:"dssdg",ms:error });
         }
     } else {
         return res.status(405).json({ error: "Method Not Allowed" });
