@@ -7,6 +7,7 @@ import Landing from "./Pages/Landing";
 import UserRegistration from "./Pages/UserRegistration";
 import MealTimings from "./Pages/MealTimings";
 import NutritionReport from "./Pages/RDAReport";
+import UserList from "./Pages/RegisteredUsers";
 
 const App = () => {
   const [gradientPosition, setGradientPosition] = useState({ x: 50, y: 50 });
@@ -39,6 +40,7 @@ const App = () => {
             <Route path="/bmi" element={<UserRegistration />} />
             <Route path="/food" element={<MealTimings />} />
             <Route path="/NutritionReport" element={<NutritionReport />} />
+            <Route path="/RegisteredUsers" element={<UserList />} />
           </Routes>
         </Router>
       </motion.div>

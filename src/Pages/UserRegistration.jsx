@@ -98,6 +98,11 @@ const UserRegistration = () => {
         }
     }, [formData.sex]);
 
+    const getISTDateTime = () => {
+        const now = new Date();
+        const options = { timeZone: "Asia/Kolkata", hour12: true };
+        return now.toLocaleString("en-IN", options);
+      };
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
@@ -109,7 +114,8 @@ const UserRegistration = () => {
         const userData = {
             ...formData,
             bmi,
-            ...nutrition
+            ...nutrition,
+            date:getISTDateTime()
         };
         console.log("User Data:", JSON.stringify(userData, null, 2));
         localStorage.setItem("userData", JSON.stringify(userData));
@@ -134,7 +140,7 @@ const UserRegistration = () => {
     return (
         <motion.div
             className="min-h-screen flex flex-col items-center justify-center text-center px-6 transition-all duration-300"
-            style={{ background: `radial-gradient(circle at ${gradientPosition.x}% ${gradientPosition.y}%, #7C3AED, #4F46E5)` }}
+            //style={{ background: `radial-gradient(circle at ${gradientPosition.x}% ${gradientPosition.y}%, #7C3AED, #4F46E5)` }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
         >

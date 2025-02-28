@@ -1,1 +1,64 @@
-[]
+[
+    {
+      "name": "Mohan B",
+      "email": "Mohan326856@gmail.com",
+      "phoneNumber": "08220348218",
+      "sex": "Male",
+      "dob": "2025-02-07",
+      "age": "10-12 years",
+      "height": "154",
+      "weight": "45",
+      "occupation": "Student",
+      "bmi": "18.97",
+      "energy": 2190,
+      "protein": 39.9,
+      "fat": 35,
+      "date": "2025-02-28"
+    },    {
+        "name": "Mohan B",
+        "email": "Mohan326856@gmail.com",
+        "phoneNumber": "08220348218",
+        "sex": "Male",
+        "dob": "2025-02-07",
+        "age": "10-12 years",
+        "height": "154",
+        "weight": "45",
+        "occupation": "Student",
+        "bmi": "18.97",
+        "energy": 2190,
+        "protein": 39.9,
+        "fat": 35,
+        "date": "2025-02-28"
+      },    {
+        "name": "Mohan B",
+        "email": "Mohan326856@gmail.com",
+        "phoneNumber": "08220348218",
+        "sex": "Male",
+        "dob": "2025-02-07",
+        "age": "10-12 years",
+        "height": "154",
+        "weight": "45",
+        "occupation": "Student",
+        "bmi": "18.97",
+        "energy": 2190,
+        "protein": 39.9,
+        "fat": 35,
+        "date": "2025-02-28"
+      },    {
+        "name": "Mohan B",
+        "email": "Mohan326856@gmail.com",
+        "phoneNumber": "08220348218",
+        "sex": "Male",
+        "dob": "2025-02-07",
+        "age": "10-12 years",
+        "height": "154",
+        "weight": "45",
+        "occupation": "Student",
+        "bmi": "18.97",
+        "energy": 2190,
+        "protein": 39.9,
+        "fat": 35,
+        "date": "2025-02-28"
+      }
+  ]
+  

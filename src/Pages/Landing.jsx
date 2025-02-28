@@ -22,7 +22,7 @@ export default function Landing() {
         <motion.div
             className="min-h-screen flex flex-col items-center justify-center text-center px-6 transition-all duration-300"
             style={{
-                background: `radial-gradient(circle at ${gradientPosition.x}% ${gradientPosition.y}%, #7C3AED, #4F46E5)`,
+              ///  background: `radial-gradient(circle at ${gradientPosition.x}% ${gradientPosition.y}%, #7C3AED, #4F46E5)`,
             }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
