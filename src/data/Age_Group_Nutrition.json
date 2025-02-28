@@ -1,0 +1,138 @@
+{
+    "infants": [
+      {
+        "age": "0-6 months",
+        "energy": "92 Kcal/kg/d",
+        "protein": "1.16 g/kg/d",
+        "fat": 0
+      },
+      {
+        "age": "6-12 months",
+        "energy": "80 Kcal/kg/d",
+        "protein": "1.69 g/kg/d",
+        "fat": 19
+      }
+    ],
+    "children": [
+      {
+        "age": "1-3 years",
+        "energy": 1060,
+        "protein": 16.7,
+        "fat": 27
+      },
+      {
+        "age": "4-6 years",
+        "energy": 1350,
+        "protein": 20.1,
+        "fat": 25
+      },
+      {
+        "age": "7-9 years",
+        "energy": 1690,
+        "protein": 29.5,
+        "fat": 30
+      }
+    ],
+    "boys": [
+      {
+        "age": "10-12 years",
+        "energy": 2190,
+        "protein": 39.9,
+        "fat": 35
+      },
+      {
+        "age": "13-15 years",
+        "energy": 2750,
+        "protein": 54.3,
+        "fat": 45
+      },
+      {
+        "age": "16-17 years",
+        "energy": 3020,
+        "protein": 61.5,
+        "fat": 50
+      }
+    ],
+    "girls": [
+      {
+        "age": "10-12 years",
+        "energy": 2010,
+        "protein": 40.4,
+        "fat": 35
+      },
+      {
+        "age": "13-15 years",
+        "energy": 2330,
+        "protein": 51.9,
+        "fat": 40
+      },
+      {
+        "age": "16-17 years",
+        "energy": 2440,
+        "protein": 55.5,
+        "fat": 35
+      }
+    ],
+    "adults": {
+        "age": "Adults (18+)",
+      "man": [
+        {
+          "occupationType": "Sedentary work",
+          "energy": 2320,
+          "protein": 60,
+          "fat": 25
+        },
+        {
+          "occupationType": "Moderate work",
+          "energy": 2730,
+          "protein": 60,
+          "fat": 30
+        },
+        {
+          "occupationType": "Heavy work",
+          "energy": 3490,
+          "protein": 60,
+          "fat": 40
+        }
+      ],
+      "woman": [
+        {
+          "occupationType": "Sedentary work",
+          "energy": 1900,
+          "protein": 55,
+          "fat": 20
+        },
+        {
+          "occupationType": "Moderate work",
+          "energy": 2230,
+          "protein": 55,
+          "fat": 25
+        },
+        {
+          "occupationType": "Heavy work",
+          "energy": 2850,
+          "protein": 55,
+          "fat": 30
+        },
+        {
+          "occupationType": "Pregnant woman",
+          "energy": 3200,
+          "protein": 78,
+          "fat": 30
+        },
+        {
+          "occupationType": "Lactation (0-6 months)",
+          "energy": 3450,
+          "protein": 74,
+          "fat": 30
+        },
+        {
+          "occupationType": "Lactation (6-12 months)",
+          "energy": 3370,
+          "protein": 68,
+          "fat": 30
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,922 @@
+{
+    "early morning": {
+        "food Items": [
+            {
+                "id": "early_morning_1",
+                "menu": "green tea",
+                "raw weight": "1glass",
+                "energy (kcal)": 7.5,
+                "protein(g)": 0.495,
+                "carbohydrate(g)": 1.246,
+                "fat(g)": 0.034,
+                "mealtime": "early morning"
+            },
+            {
+                "id": "early_morning_2",
+                "menu": "milk",
+                "raw weight": "1glass",
+                "energy (kcal)": 122,
+                "protein(g)": 8.1,
+                "carbohydrate(g)": 12,
+                "fat(g)": 8.2,
+                "mealtime": "early morning"
+            },
+            {
+                "id": "early_morning_3",
+                "menu": "coffee",
+                "raw weight": "1glass",
+                "energy (kcal)": 122,
+                "protein(g)": 8.1,
+                "carbohydrate(g)": 12,
+                "fat(g)": 8.2,
+                "mealtime": "early morning"
+            },
+            {
+                "id": "early_morning_4",
+                "menu": "tea",
+                "raw weight": "1glass",
+                "energy (kcal)": 122,
+                "protein(g)": 8.1,
+                "carbohydrate(g)": 12,
+                "fat(g)": 8.2,
+                "mealtime": "early morning"
+            }
+        ]
+    },
+    "breakfast": {
+        "food Items": [
+            {
+                "id": "breakfast_1",
+                "menu": "idli",
+                "raw weight": "(1 number) 16g",
+                "energy (kcal)": 56,
+                "protein(g)": 1.75,
+                "carbohydrate(g)": 12.1,
+                "fat(g)": 0.1025,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_2",
+                "menu": "rava idli",
+                "raw weight": "(1 number) 12g",
+                "energy (kcal)": 43.5,
+                "protein(g)": 1.3,
+                "carbohydrate(g)": 9.35,
+                "fat(g)": 0.1,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_3",
+                "menu": "dosa",
+                "raw weight": "(1 plate- 3 numbers)65g",
+                "energy (kcal)": 75,
+                "protein(g)": 2.3,
+                "carbohydrate(g)": 16.1,
+                "fat(g)": 0.13,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_4",
+                "menu": "chappathi",
+                "raw weight": "(1 numbers)30g",
+                "energy (kcal)": 11.3,
+                "protein(g)": 4,
+                "carbohydrate(g)": 23,
+                "fat(g)": 0.56,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_5",
+                "menu": "poori",
+                "raw weight": "(1 number)25g",
+                "energy (kcal)": 85.25,
+                "protein(g)": 3,
+                "carbohydrate(g)": 17.35,
+                "fat(g)": 0.425,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_6",
+                "menu": "wheat dosa",
+                "raw weight": "(1 number)17 g",
+                "energy (kcal)": 57,
+                "protein(g)": 2,
+                "carbohydrate(g)": 4.6,
+                "fat(g)": 0.3,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_7",
+                "menu": "sweet pongal",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 178.2,
+                "protein(g)": 2.44,
+                "carbohydrate(g)": 41.62,
+                "fat(g)": 0.19,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_8",
+                "menu": "milagu pongal",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 120.75,
+                "protein(g)": 2.38,
+                "carbohydrate(g)": 27.37,
+                "fat(g)": 0.175,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_9",
+                "menu": "millet pongal(vargu)",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 108.15,
+                "protein(g)": 2.9,
+                "carbohydrate(g)": 23.06,
+                "fat(g)": 0.49,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_10",
+                "menu": "semolina upma",
+                "raw weight": "(1 cup)75g",
+                "energy (kcal)": 261,
+                "protein(g)": 7.4,
+                "carbohydrate(g)": 56.1,
+                "fat(g)": 0.6,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_11",
+                "menu": "saamai upma",
+                "raw weight": "(1cup)75g",
+                "energy (kcal)": 225.75,
+                "protein(g)": 5.775,
+                "carbohydrate(g)": 50.25,
+                "fat(g)": 3.525,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_12",
+                "menu": "rice puttu",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 164.7,
+                "protein(g)": 2.7,
+                "carbohydrate(g)": 36,
+                "fat(g)": 0.63,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_13",
+                "menu": "ragi puttu",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 147.6,
+                "protein(g)": 3.28,
+                "carbohydrate(g)": 32.4,
+                "fat(g)": 0.585,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_14",
+                "menu": "rice porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 120.75,
+                "protein(g)": 2.38,
+                "carbohydrate(g)": 27.37,
+                "fat(g)": 0.175,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_15",
+                "menu": "oats porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 132.65,
+                "protein(g)": 4.55,
+                "carbohydrate(g)": 23.8,
+                "fat(g)": 2.27,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_16",
+                "menu": "kambu porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 126.35,
+                "protein(g)": 4.06,
+                "carbohydrate(g)": 23.625,
+                "fat(g)": 1.75,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_17",
+                "menu": "ragi porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 120.75,
+                "protein(g)": 2.38,
+                "carbohydrate(g)": 27.37,
+                "fat(g)": 0.175,
+                "mealtime": "breakfast"
+            }
+        ],
+        "chutney varieties": [
+            {
+                "id": "breakfast_chutney_1",
+                "menu": "tomato chutney",
+                "raw weight": "(1 katori)50g",
+                "energy (kcal)": 10,
+                "protein(g)": 0.45,
+                "carbohydrate(g)": 1.8,
+                "fat(g)": 0.1,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_chutney_2",
+                "menu": "coconut chuntey",
+                "raw weight": "(1 katori)50g",
+                "energy (kcal)": 331,
+                "protein(g)": 3.4,
+                "carbohydrate(g)": 9.2,
+                "fat(g)": 31.15,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_chutney_3",
+                "menu": "mint chutney",
+                "raw weight": "(1 katori)50g",
+                "energy (kcal)": 24,
+                "protein(g)": 2.4,
+                "carbohydrate(g)": 2.9,
+                "fat(g)": 0.3,
+                "mealtime": "breakfast"
+            }
+        ],
+        "curries": [
+            {
+                "id": "breakfast_curry_1",
+                "menu": "sambar",
+                "raw weight": "(1 cup)15g",
+                "energy (kcal)": 55.8,
+                "protein(g)": 3.12,
+                "carbohydrate(g)": 8.97,
+                "fat(g)": 0.965,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_curry_2",
+                "menu": "vegetable kurma",
+                "raw weight": "(1 cup)75g",
+                "energy (kcal)": 53.75,
+                "protein(g)": 1.15,
+                "carbohydrate(g)": 11.975,
+                "fat(g)": 0.375,
+                "mealtime": "breakfast"
+            },
+            {
+                "id": "breakfast_curry_3",
+                "menu": "channa gravy",
+                "raw weight": "(1 cup)25g",
+                "energy (kcal)": 189,
+                "protein(g)": 10,
+                "carbohydrate(g)": 31.5,
+                "fat(g)": 3,
+                "mealtime": "breakfast"
+            }
+        ]
+    },
+    "mid morning": {
+        "food Items": [
+            {
+                "id": "mid_morning_1",
+                "menu": "vegetable salad",
+                "raw weight": "(1 cup)",
+                "energy (kcal)": 62.3,
+                "protein(g)": 2.2,
+                "carbohydrate(g)": 11.97,
+                "fat(g)": 0.512,
+                "mealtime": "mid morning"
+            },
+            {
+                "id": "mid_morning_2",
+                "menu": "fruit salad",
+                "raw weight": "(1 cup)",
+                "energy (kcal)": 33.9,
+                "protein(g)": 0.46,
+                "carbohydrate(g)": 7.72,
+                "fat(g)": 0.14,
+                "mealtime": "mid morning"
+            },
+            {
+                "id": "mid_morning_3",
+                "menu": "ABC juice",
+                "raw weight": "(1glass)",
+                "energy (kcal)": 31,
+                "protein(g)": 1.19,
+                "carbohydrate(g)": 22.4,
+                "fat(g)": 0.185,
+                "mealtime": "mid morning"
+            },
+            {
+                "id": "mid_morning_4",
+                "menu": "fruit juice",
+                "raw weight": "(1glass)",
+                "energy (kcal)": 30.4,
+                "protein(g)": 0.41,
+                "carbohydrate(g)": 7.5,
+                "fat(g)": 0.51,
+                "mealtime": "mid morning"
+            },
+            {
+                "id": "mid_morning_5",
+                "menu": "coconut water",
+                "raw weight": "(1glass)",
+                "energy (kcal)": 19,
+                "protein(g)": 0.7,
+                "carbohydrate(g)": 3.7,
+                "fat(g)": 0.2,
+                "mealtime": "mid morning"
+            },
+            {
+                "id": "mid_morning_6",
+                "menu": "vegetable soup",
+                "raw weight": "( 1 cup)30g",
+                "energy (kcal)": 11.85,
+                "protein(g)": 0.405,
+                "carbohydrate(g)": 2.64,
+                "fat(g)": 0.045,
+                "mealtime": "mid morning"
+            },
+            {
+                "id": "mid_morning_7",
+                "menu": "sprouts",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 106.8,
+                "protein(g)": 6.15,
+                "carbohydrate(g)": 17.955,
+                "fat(g)": 1.095,
+                "mealtime": "mid morning"
+            }
+        ]
+    },
+    "lunch": {
+        "food Items": [
+            {
+                "id": "lunch_1",
+                "menu": "boiled white rice",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 58.05,
+                "protein(g)": 1.2015,
+                "carbohydrate(g)": 12.59,
+                "fat(g)": 0.126,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_2",
+                "menu": "boiled brown rice",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 54.9,
+                "protein(g)": 1.22,
+                "carbohydrate(g)": 11.45,
+                "fat(g)": 0.43,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_3",
+                "menu": "boiled red rice",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 160.2,
+                "protein(g)": 4,
+                "carbohydrate(g)": 37,
+                "fat(g)": 1.49,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_4",
+                "menu": "lemon rice",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 58.05,
+                "protein(g)": 1.2015,
+                "carbohydrate(g)": 12.59,
+                "fat(g)": 0.126,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_5",
+                "menu": "tamarind rice",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 86.35,
+                "protein(g)": 1.5115,
+                "carbohydrate(g)": 19.3,
+                "fat(g)": 0.136,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_6",
+                "menu": "coconut rice",
+                "raw weight": "(1 cup)30g",
+                "energy (kcal)": 198.6,
+                "protein(g)": 2.04,
+                "carbohydrate(g)": 5.52,
+                "fat(g)": 18.69,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_7",
+                "menu": "vegetable briyani",
+                "raw weight": "(1 cup)75g",
+                "energy (kcal)": 168.45,
+                "protein(g)": 15.01,
+                "carbohydrate(g)": 26.13,
+                "fat(g)": 0.345,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_8",
+                "menu": "chicken briyani",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 131.2,
+                "protein(g)": 19,
+                "carbohydrate(g)": 10.5,
+                "fat(g)": 1.6,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_9",
+                "menu": "mutton briyani",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 145.75,
+                "protein(g)": 10.25,
+                "carbohydrate(g)": 10.5,
+                "fat(g)": 6.75,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_10",
+                "menu": "boiled egg",
+                "raw weight": "(1 no.)55g",
+                "energy (kcal)": 95.15,
+                "protein(g)": 7.315,
+                "carbohydrate(g)": 0,
+                "fat(g)": 7.315,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_11",
+                "menu": "curd",
+                "raw weight": "(1 katori)35g",
+                "energy (kcal)": 21,
+                "protein(g)": 1.085,
+                "carbohydrate(g)": 1.05,
+                "fat(g)": 1.4,
+                "mealtime": "lunch"
+            }
+        ],
+        "curries": [
+            {
+                "id": "lunch_curry_1",
+                "menu": "sambar",
+                "raw weight": "(1 cup)15g",
+                "energy (kcal)": 80.8,
+                "protein(g)": 3.905,
+                "carbohydrate(g)": 14.09,
+                "fat(g)": 0.965,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_curry_2",
+                "menu": "chicken curry",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 82.5,
+                "protein(g)": 15.5,
+                "carbohydrate(g)": 0,
+                "fat(g)": 1.8,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_curry_3",
+                "menu": "fish curry",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 58,
+                "protein(g)": 10,
+                "carbohydrate(g)": 0,
+                "fat(g)": 1.5,
+                "mealtime": "lunch"
+            }
+        ],
+        "porriyal": [
+            {
+                "id": "lunch_porriyal_1",
+                "menu": "carrot porriyal",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 36,
+                "protein(g)": 0.405,
+                "carbohydrate(g)": 21.6,
+                "fat(g)": 0.09,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_porriyal_2",
+                "menu": "beetroot porriyal",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 19.35,
+                "protein(g)": 0.765,
+                "carbohydrate(g)": 3.96,
+                "fat(g)": 0.045,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_porriyal_3",
+                "menu": "potato porriyal",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 43.65,
+                "protein(g)": 0.72,
+                "carbohydrate(g)": 10.17,
+                "fat(g)": 0.045,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_porriyal_4",
+                "menu": "mulai keerai(amaranth leaves) porriyal",
+                "raw weight": "(1 cup)75g",
+                "energy (kcal)": 17.25,
+                "protein(g)": 2.175,
+                "carbohydrate(g)": 2.7,
+                "fat(g)": 0.3,
+                "mealtime": "lunch"
+            },
+            {
+                "id": "lunch_porriyal_5",
+                "menu": "manathakaali keerai( sun berry leaves)porriyal",
+                "raw weight": "(1 cup)75g",
+                "energy (kcal)": 51,
+                "protein(g)": 4.42,
+                "carbohydrate(g)": 6.675,
+                "fat(g)": 0.75,
+                "mealtime": "lunch"
+            }
+        ]
+    },
+    "evening": {
+        "food Items": [
+            {
+                "id": "evening_1",
+                "menu": "channa boiled",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 189,
+                "protein(g)": 10,
+                "carbohydrate(g)": 31.5,
+                "fat(g)": 3,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_2",
+                "menu": "green gram boiled",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 167,
+                "protein(g)": 12,
+                "carbohydrate(g)": 28.35,
+                "fat(g)": 0.65,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_3",
+                "menu": "potato baji",
+                "raw weight": "( 1 ) 15g",
+                "energy (kcal)": 14.55,
+                "protein(g)": 0.24,
+                "carbohydrate(g)": 3.39,
+                "fat(g)": 0.215,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_4",
+                "menu": "raw banana baji",
+                "raw weight": "(1 number)25g",
+                "energy (kcal)": 22.25,
+                "protein(g)": 0.275,
+                "carbohydrate(g)": 5.75,
+                "fat(g)": 0.075,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_5",
+                "menu": "ulundhu vadai",
+                "raw weight": "(1 number) 22 g",
+                "energy (kcal)": 35,
+                "protein(g)": 5.4,
+                "carbohydrate(g)": 13.4,
+                "fat(g)": 0.315,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_6",
+                "menu": "paruppu vadai",
+                "raw weight": "(1 numbers) 15g",
+                "energy (kcal)": 24.3,
+                "protein(g)": 1.3,
+                "carbohydrate(g)": 4.06,
+                "fat(g)": 0.4,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_7",
+                "menu": "vegetable soup",
+                "raw weight": "( 1 cup)30g",
+                "energy (kcal)": 11.85,
+                "protein(g)": 0.405,
+                "carbohydrate(g)": 2.64,
+                "fat(g)": 0.045,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_8",
+                "menu": "chicken soup",
+                "raw weight": "(1 cup)30g",
+                "energy (kcal)": 49.5,
+                "protein(g)": 9.3,
+                "carbohydrate(g)": 0,
+                "fat(g)": 1.08,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_9",
+                "menu": "sprouts",
+                "raw weight": "(1 cup)50g",
+                "energy (kcal)": 106.8,
+                "protein(g)": 6.15,
+                "carbohydrate(g)": 17.955,
+                "fat(g)": 1.095,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_10",
+                "menu": "fruit salad",
+                "raw weight": "( 1 cup)75g",
+                "energy (kcal)": 33.9,
+                "protein(g)": 0.46,
+                "carbohydrate(g)": 7.72,
+                "fat(g)": 0.14,
+                "mealtime": "evening"
+            },
+            {
+                "id": "evening_11",
+                "menu": "potato chips",
+                "raw weight": "(1 cup) 30g",
+                "energy (kcal)": 29.1,
+                "protein(g)": 0.48,
+                "carbohydrate(g)": 6.78,
+                "fat(g)": 0.43,
+                "mealtime": "evening"
+            }
+        ]
+    },
+    "dinner": {
+        "food Items": [
+            {
+                "id": "dinner_1",
+                "menu": "idli",
+                "raw weight": "(1 number) 16g",
+                "energy (kcal)": 56,
+                "protein(g)": 1.75,
+                "carbohydrate(g)": 12.1,
+                "fat(g)": 0.1025,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_2",
+                "menu": "rava idli",
+                "raw weight": "(1 number) 12g",
+                "energy (kcal)": 43.5,
+                "protein(g)": 1.3,
+                "carbohydrate(g)": 9.35,
+                "fat(g)": 0.1,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_3",
+                "menu": "dosa",
+                "raw weight": "(1 plate- 3 numbers)65g",
+                "energy (kcal)": 75,
+                "protein(g)": 2.3,
+                "carbohydrate(g)": 16.1,
+                "fat(g)": 0.13,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_4",
+                "menu": "chappathi",
+                "raw weight": "(1 numbers)30g",
+                "energy (kcal)": 11.3,
+                "protein(g)": 4,
+                "carbohydrate(g)": 23,
+                "fat(g)": 0.56,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_5",
+                "menu": "poori",
+                "raw weight": "(1 number)25g",
+                "energy (kcal)": 85.25,
+                "protein(g)": 3,
+                "carbohydrate(g)": 17.35,
+                "fat(g)": 0.425,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_6",
+                "menu": "wheat dosa",
+                "raw weight": "(1 number)17 g",
+                "energy (kcal)": 57,
+                "protein(g)": 2,
+                "carbohydrate(g)": 4.6,
+                "fat(g)": 0.3,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_7",
+                "menu": "sweet pongal",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 178.2,
+                "protein(g)": 2.44,
+                "carbohydrate(g)": 41.62,
+                "fat(g)": 0.19,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_8",
+                "menu": "milagu pongal",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 120.75,
+                "protein(g)": 2.38,
+                "carbohydrate(g)": 27.37,
+                "fat(g)": 0.175,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_9",
+                "menu": "millet pongal(vargu)",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 108.15,
+                "protein(g)": 2.9,
+                "carbohydrate(g)": 23.06,
+                "fat(g)": 0.49,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_10",
+                "menu": "semolina upma",
+                "raw weight": "(1 cup)75g",
+                "energy (kcal)": 261,
+                "protein(g)": 7.4,
+                "carbohydrate(g)": 56.1,
+                "fat(g)": 0.6,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_11",
+                "menu": "saamai upma",
+                "raw weight": "(1cup)75g",
+                "energy (kcal)": 225.75,
+                "protein(g)": 5.775,
+                "carbohydrate(g)": 50.25,
+                "fat(g)": 3.525,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_12",
+                "menu": "rice puttu",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 164.7,
+                "protein(g)": 2.7,
+                "carbohydrate(g)": 36,
+                "fat(g)": 0.63,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_13",
+                "menu": "ragi puttu",
+                "raw weight": "(1 cup)45g",
+                "energy (kcal)": 147.6,
+                "protein(g)": 3.28,
+                "carbohydrate(g)": 32.4,
+                "fat(g)": 0.585,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_14",
+                "menu": "rice porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 120.75,
+                "protein(g)": 2.38,
+                "carbohydrate(g)": 27.37,
+                "fat(g)": 0.175,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_15",
+                "menu": "oats porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 132.65,
+                "protein(g)": 4.55,
+                "carbohydrate(g)": 23.8,
+                "fat(g)": 2.27,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_16",
+                "menu": "kambu porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 126.35,
+                "protein(g)": 4.06,
+                "carbohydrate(g)": 23.625,
+                "fat(g)": 1.75,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_17",
+                "menu": "ragi porridge",
+                "raw weight": "(1 cup)35g",
+                "energy (kcal)": 120.75,
+                "protein(g)": 2.38,
+                "carbohydrate(g)": 27.37,
+                "fat(g)": 0.175,
+                "mealtime": "dinner"
+            }
+        ],
+        "chutney varieties": [
+            {
+                "id": "dinner_chutney_1",
+                "menu": "tomato chutney",
+                "raw weight": "(1 katori)50g",
+                "energy (kcal)": 10,
+                "protein(g)": 0.45,
+                "carbohydrate(g)": 1.8,
+                "fat(g)": 0.1,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_chutney_2",
+                "menu": "coconut chuntey",
+                "raw weight": "(1 katori)50g",
+                "energy (kcal)": 331,
+                "protein(g)": 3.4,
+                "carbohydrate(g)": 9.2,
+                "fat(g)": 31.15,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_chutney_3",
+                "menu": "mint chutney",
+                "raw weight": "(1 katori)50g",
+                "energy (kcal)": 24,
+                "protein(g)": 2.4,
+                "carbohydrate(g)": 2.9,
+                "fat(g)": 0.3,
+                "mealtime": "dinner"
+            }
+        ],
+        "curries": [
+            {
+                "id": "dinner_curry_1",
+                "menu": "sambar",
+                "raw weight": "(1 cup)15g",
+                "energy (kcal)": 55.8,
+                "protein(g)": 3.12,
+                "carbohydrate(g)": 8.97,
+                "fat(g)": 0.965,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_curry_2",
+                "menu": "vegetable kurma",
+                "raw weight": "(1 cup)75g",
+                "energy (kcal)": 53.75,
+                "protein(g)": 1.15,
+                "carbohydrate(g)": 11.975,
+                "fat(g)": 0.375,
+                "mealtime": "dinner"
+            },
+            {
+                "id": "dinner_curry_3",
+                "menu": "channa gravy",
+                "raw weight": "(1 cup)25g",
+                "energy (kcal)": 189,
+                "protein(g)": 10,
+                "carbohydrate(g)": 31.5,
+                "fat(g)": 3,
+                "mealtime": "dinner"
+            }
+        ]
+    },
+    "bed time": {
+        "food Items": [
+            {
+                "id": "bed_time_1",
+                "menu": "milk",
+                "raw weight": "(1glass)",
+                "energy (kcal)": 122,
+                "protein(g)": 8.1,
+                "carbohydrate(g)": 12,
+                "fat(g)": 8.2,
+                "mealtime": "bed time"
+            }
+        ]
+    }
+}
