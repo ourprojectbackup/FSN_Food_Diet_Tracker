@@ -83,6 +83,29 @@ const UserRegistration = () => {
     }, [formData.sex, formData.occupation]);
 
     useEffect(() => {
+        if (bmi) {
+            let reductionPercentage = 0;
+    
+            if (bmi >= 30 && bmi < 35) {
+                reductionPercentage = 10; // Class 1 Obesity
+            } else if (bmi >= 35 && bmi < 40) {
+                reductionPercentage = 15; // Class 2 Obesity
+            } else if (bmi >= 40) {
+                reductionPercentage = 20; // Class 3 Obesity
+            }
+    
+            const reducedEnergy = nutrition.energy - (nutrition.energy * (reductionPercentage / 100));
+            const reducedFat = nutrition.fat - (nutrition.fat * (reductionPercentage / 100));
+    
+            setNutrition(prev => ({
+                ...prev,
+                energy: Math.round(reducedEnergy),
+                fat: Math.round(reducedFat)
+            }));
+        }
+    }, [bmi, nutrition.energy, nutrition.fat]);
+    
+    useEffect(() => {
         if (formData.sex === 'Male') {
             setFilteredOccupations(
                 nutritionData.adults.man.map(entry => entry.occupationType)
