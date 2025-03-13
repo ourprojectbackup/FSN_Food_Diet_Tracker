@@ -102,7 +102,7 @@ const UserRegistration = () => {
         const now = new Date();
         const options = { timeZone: "Asia/Kolkata", hour12: true };
         return now.toLocaleString("en-IN", options);
-      };
+    };
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
@@ -115,7 +115,7 @@ const UserRegistration = () => {
             ...formData,
             bmi,
             ...nutrition,
-            date:getISTDateTime()
+            date: getISTDateTime()
         };
         console.log("User Data:", JSON.stringify(userData, null, 2));
         localStorage.setItem("userData", JSON.stringify(userData));
@@ -125,13 +125,13 @@ const UserRegistration = () => {
     };
 
     const handleSaveData = async (data) => {
-      console.log(data,"USERDATATA")
+        console.log(data, "USERDATATA")
         const response = await fetch("/api/RegisteredUsers", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),
         });
-    
+
         const result = await response.json();
         console.log(result);
     };
@@ -196,7 +196,14 @@ const UserRegistration = () => {
                         </select>
                     )}
 
-                    {bmi && <p className="mt-2 text-sm">BMI: <strong>{bmi}</strong> ({bmi < 18.5 ? 'Underweight' : bmi >= 18.5 && bmi < 24.9 ? 'Normal weight' : bmi >= 25 && bmi < 29.9 ? 'Overweight' : 'Obese'})</p>}
+                    {bmi && <p className="mt-2 text-sm">BMI: <strong>{bmi}</strong>  {bmi !== undefined && (
+                        bmi < 18.5 ? 'Underweight' :
+                            bmi >= 18.5 && bmi < 24.9 ? 'Normal weight' :
+                                bmi >= 25 && bmi < 29.9 ? 'Overweight' :
+                                    bmi >= 30 && bmi < 35 ? 'Class 1 Obesity (Mild)' :
+                                        bmi >= 35 && bmi < 40 ? 'Class 2 Obesity (Moderate)' :
+                                            'Class 3 Obesity (Severe)'
+                    )}</p>}
 
                     {nutrition.energy != 0 ? (
                         <div className="mt-3 p-3 bg-gray-100 rounded">

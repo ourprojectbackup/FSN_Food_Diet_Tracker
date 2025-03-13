@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import SubMenuSection from "./SubMenuSection";
 import { motion, AnimatePresence } from "framer-motion";
+import SubActivitySection from "./SubActivitySection";
 
-const MealSection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expandedMeal, setExpandedMeal }) => {
+const ActivitySection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expandedMeal, setExpandedMeal }) => {
 
   const capitalizeWords = (text) => {
     return text.replace(/\b\w/g, (char) => char.toUpperCase());
@@ -10,29 +11,25 @@ const MealSection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expa
 
  
   const calculateNutrition = (storedQuantities) => {
-  
+    
     let nutritionData = {};
   
     Object.values(storedQuantities).forEach((food) => {
       const qty = food.quantity || 0; // Ensure quantity is present and valid
       if (qty <= 0) return; // Skip if quantity is 0 or less
   
-      const mealtime = food.mealtime || "Unknown"; // Ensure mealtime exists
-      if (!nutritionData[mealtime]) {
-        nutritionData[mealtime] = { energy: 0, protein: 0, fats: 0 };
+      const mealtime = food.parent || "Unknown"; // Ensure mealtime exists
+      if (!nutritionData[parent]) {
+        nutritionData[parent] = { calories: 0 };
       }
   
       // Accumulate total nutrition, ensuring values are valid numbers
-      nutritionData[mealtime].energy += (food["energy (kcal)"] || 0) * qty;
-      nutritionData[mealtime].protein += (food["protein(g)"] || 0) * qty;
-      nutritionData[mealtime].fats += (food["fat(g)"] || 0) * qty;
+      nutritionData[parent].calories += (food["kcal"] || 0) * qty;
     });
   
     // Optional: Round values for cleaner UI display
     Object.keys(nutritionData).forEach((meal) => {
-      nutritionData[meal].energy = parseFloat(nutritionData[meal].energy.toFixed(2));
-      nutritionData[meal].protein = parseFloat(nutritionData[meal].protein.toFixed(2));
-      nutritionData[meal].fats = parseFloat(nutritionData[meal].fats.toFixed(2));
+      nutritionData[meal].calories = parseFloat(nutritionData[meal].calories.toFixed(2));
     });
   
     return nutritionData;
@@ -46,9 +43,10 @@ const MealSection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expa
  
 
   useEffect(() => {
-    const storedQuantities = JSON.parse(localStorage.getItem("foodQuantities")) || {}; // Get latest data
+    const storedQuantities = JSON.parse(localStorage.getItem("activityQuantities")) || {}; // Get latest data
     //console.log("Latest Reducer Data:", storedQuantities);
     const updatedNutrition = calculateNutrition( storedQuantities);
+  
     setNutrition(updatedNutrition);
   }, [quantities]);
 
@@ -95,7 +93,8 @@ const MealSection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expa
 </h2>
 
 
-{nutrition?.[mealType] && (
+
+{nutrition?.meal && (
   <motion.div 
     className="p-3 bg-gray-100 rounded-lg shadow-md mt-2"
     initial={{ opacity: 0 }}
@@ -104,9 +103,7 @@ const MealSection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expa
     <h3 className="text-md font-semibold text-gray-700 mb-1">{capitalizeWords(mealType)}</h3>
 
     <div className="flex justify-between text-gray-600 text-sm px-2 py-1">
-      <p>🔥 Energy: <span className="font-bold text-red-500">{nutrition[mealType]?.energy.toFixed(2)} kcal</span></p>
-      <p>💪 Protein: <span className="font-bold text-green-500">{nutrition[mealType]?.protein.toFixed(2)} g</span></p>
-      <p>🛢️ Fats: <span className="font-bold text-yellow-500">{nutrition[mealType]?.fats.toFixed(2)} g</span></p>
+      <p>🔥 Calories Burned: <span className="font-bold text-red-500">{nutrition[mealType]?.calories.toFixed(2)} kcal</span></p>
     </div>
   </motion.div>
 )}
@@ -123,7 +120,7 @@ const MealSection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expa
             className="overflow-hidden mt-2"
           >
             {Object.keys(foodItems).map((submenu) => (
-              <SubMenuSection
+              <SubActivitySection
                 key={submenu}
                 mealType={submenu}
                 foodItems={foodItems[submenu] || []}
@@ -138,4 +135,4 @@ const MealSection = ({ mealType, mealIcon, foodItems, quantities, dispatch, expa
   );
 };
 
-export default MealSection;
+export default ActivitySection;

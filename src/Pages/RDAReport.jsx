@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const NutritionReport = () => {
   const userData = JSON.parse(localStorage.getItem("userData")) || {};
-  console.log(userData)
+  
   // Function to extract only numerical values from text (e.g., "80 Kcal/kg/d" -> 80)
   const extractNumber = (str) => {
     if (!str) return 0; // Handle undefined or null values
@@ -20,8 +20,25 @@ const NutritionReport = () => {
     protein: extractNumber(userData.protein),
     fat: extractNumber(userData.fat),
   };
-
-  console.log(processedRDA)
+  
+  const bmi = userData.bmi;
+  
+  // Function to calculate the reduced RDA based on BMI
+  const getReducedValue = (value, percentage) => {
+    return value - (value * percentage) / 100;
+  };
+  
+  // Check BMI and apply reduction
+  if (bmi >= 30 && bmi < 35) {
+    processedRDA.energy = getReducedValue(processedRDA.energy, 10);
+    processedRDA.fat = getReducedValue(processedRDA.fat, 10);
+  } else if (bmi >= 35 && bmi < 40) {
+    processedRDA.energy = getReducedValue(processedRDA.energy, 15);
+    processedRDA.fat = getReducedValue(processedRDA.fat, 15);
+  } else if (bmi >= 40) {
+    processedRDA.energy = getReducedValue(processedRDA.energy, 20);
+    processedRDA.fat = getReducedValue(processedRDA.fat, 20);
+  }
 
   const [nutrition, setNutrition] = useState({ energy: 0, protein: 0, fat: 0 });
   const navigate = useNavigate();
